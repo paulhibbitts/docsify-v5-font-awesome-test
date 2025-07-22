@@ -35,3 +35,15 @@
 :fas fa-desktop fa-fw: [Usability Testing](https://docs.google.com/presentation/d/e/2PACX-1vRnnRFelgw1ksq_p8Eryg3dnyLCRRLPf5fBgdwdv9p-tCIwcxqWvzDGrGbjxGHL7HqEJVpmV26ntk3a/pub?start=false&loop=false&delayms=3000)   
 :fas fa-book fa-fw: [The Art of Guerrilla Usability Testing](http://www.uxbooth.com/articles/the-art-of-guerrilla-usability-testing/)  
 :fas fa-users fa-fw: In-class office hours (tentative)
+
+# :fas fa-calendar fa-pull-left: Week 1 
+
+# :fas fa-calendar fa-pull-left: Week 2 
+
+## :fas fa-calendar fa-pull-left: Week 1 
+
+## :fas fa-calendar fa-pull-left: Week 2 
+
+### :fas fa-calendar fa-pull-left: Week 1 
+
+### :fas fa-calendar fa-pull-left: Week 2 
