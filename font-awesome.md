@@ -1,4 +1,4 @@
-# Schedule
+# Schedule (now using PR Preview)
 
 ## :fas fa-calendar fa-pull-left: [Week 1 (May 9 - 15)](module-01)
 **What is usability and user experience design?**  
