@@ -2,4 +2,5 @@
 - [Example Second Page](second-page)
 - [Font Awesome Test](font-awesome)
     - [Font Awesome Test Fix 1](font-awesome-fix-1)
+- [Links as Index](links-as-index)
 - [Headers as Index](headers-as-index)
