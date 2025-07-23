@@ -4,6 +4,15 @@
 }
 </style>
 
+```
+<style>
+    [id]:is(.markdown-section :where(h1,h2,h3,h4,h5,h6)) a:first-of-type {
+    display: unset;
+}
+</style>
+
+```
+
 # Schedule
 
 ## :fas fa-calendar fa-pull-left: [Week 1 (May 9 - 15)](module-01)
