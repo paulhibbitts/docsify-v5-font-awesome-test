@@ -1,47 +1,73 @@
+```
 <style>
-/* Clean, minimalist approach */
-.markdown-section p:first-of-type {
-    font-size: 24px;
+/* Target first paragraphs with 5+ links (reasonable index minimum) */
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    font-size: var(--font-size-xl);
     font-weight: 500;
+    line-height: 1.4;
+}
+
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) a {
+    padding: 0 2px;
+}
+</style>
+```
+
+<style>
+/* Target first paragraphs with 5+ links (reasonable index minimum) */
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.markdown-section p:first-of-type:has(a[href^="#"]):has(a:nth-of-type(5)) a {
+    padding: 0 2px;
 }
 </style>
 
 # Topics
 
-[A](#a)|B|C|[D](#d)|E|[F](#f)|G|[H](#h)|I|[J](#j)|[K](#k)|[L](#l)|[M](#m)|N|O|[P](#p)|Q|R|[S](#s)|[T](#t)|[U](#u)|[V](#v)|W|X|Y|Z
+[A](#a)| B | C |[D](#d)| E |[F](#f)| G |[H](#h)| I |[J](#j)|[K](#k)|[L](#l)|[M](#m)| N | O |[P](#p)| Q | R |[S](#s)|[T](#t)|[U](#u)|[V](#v)| W | X | Y | Z
 
-### A
+## A
 [Agile UX](module-02)
 
-### D
+## D
 [Design Ethics](module-02)  
 [Design Thinking](module-01)  
 
-### F
+## F
 [5-Second Test](module-05)   
 [Five Whys](module-01)  
 
-### H
+## H
 [Hypothesis](module-02)  
 
-### J
+## J
 [Journey Maps](module-03)  
 
-### K
+## K
 [Kano Model](module-03)  
 
-### L
+## L
 [Lean UX](module-02)  
 
-### M
+## M
 [Microsoft Product Reaction Cards](module-02)  
 
-### P
+## P
 [Problem Statement](module-03)  
 [Product Design Principles](module-03)  
 [Prototyping](module-04)   
 
-### S
+## S
 [Scenario-based Design (and Task-Centered Design)](module-04)  
 [Scenarios (and Design Scenarios)](module-04)  
 [Sketching](module-04)
@@ -49,10 +75,10 @@
 [Software Design Processes](module-02)  
 [Storyboards](module-04)  
 
-### T
+## T
 [Task Analysis](module-02)  
 
-### U
+## U
 [Usability](module-01)  
 [Usability Goals](module-02)  
 [Usability Testing](module-05)   
@@ -61,5 +87,5 @@
 [UX Goals](module-02)  
 [UX Strategy](module-03)  
 
-### V
+## V
 [Value Proposition](module-03)  
